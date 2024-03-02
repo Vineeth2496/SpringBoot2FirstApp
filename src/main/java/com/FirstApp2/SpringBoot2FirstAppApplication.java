@@ -12,6 +12,8 @@ public class SpringBoot2FirstAppApplication {
 		
 		MyViewResolver ob=ac.getBean("myview", MyViewResolver.class);
 		
+		System.out.println("Hello");
+		
 		System.out.println(ob);
 	}
 }
